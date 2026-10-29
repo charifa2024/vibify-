@@ -1,0 +1,15 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+
+# local env / editor
+.env
+.env.*
+.DS_Store
+*.log
+
+# json-server is your local library data; keep db.json out of version control
+# if you don't want to commit your likes/playlists. Comment this out to track it.
+# db.json

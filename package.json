@@ -1,0 +1,21 @@
+{
+  "name": "vibify",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "api": "json-server --watch db.json --port 3000",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "pinia": "^2.2.6",
+    "vue": "^3.5.12",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "json-server": "0.17.4",
+    "vite": "^5.4.10"
+  }
+}
